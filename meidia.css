@@ -1,0 +1,187 @@
+@media screen and (max-width:1170px){
+    .navbar{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: auto;
+        transform: translateY(0);
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        row-gap: 1px;
+        padding: 10px;
+        border-top: 1px solid hsl(200 100% 99% / 5%);
+        background: linear-gradient(8deg,hsl(240 17 17% 14% / 100%)5%,
+       hsl(240 17 17% 14% / 90%)100% );
+    }
+    .nav-links .fas{
+        font-size: 1.5rem;
+    }
+    .copyright{
+        margin-bottom: 4rem;
+    }
+}
+@media screen and (max-width:1060) {
+    .container{
+        margin: 0 auto;
+        width: 95%;
+    }
+}
+@media screen and (max-width:991px) {
+
+.movie-box{
+    height: 340px;
+}
+.movie-content{
+    grid-template-columns:repeat(auto-fit,minmax(214px,1fr)) !important;
+}
+}
+@media screen and (max-width:888px){
+    .nav{
+        padding: 14px 0;
+    }
+    .home{
+        min-height: 440px;
+        margin-top: 4rem !important;
+    }
+    .home-text{
+        padding-left: 25px;
+    }
+    .home-title{
+        font-size: 1.5rem;
+    }
+    .watch-btn span{
+        font-size: 0.9rem;
+    }
+    .movie-title{
+        font-size: 1rem;
+        padding-right: 3px;
+    }
+    .play-container{
+        min-height: 440px;
+        margin-top: 4rem !important;
+    }
+    .play-movies{
+        bottom: 14rem;
+        right: 4rem;
+    }
+    .cast{
+        justify-content: center;
+    }
+}
+/* for min device  tablet*/
+@media screen and (max-width:768px) {
+   .nav{
+    padding: 11px 0;
+   } 
+   .logo{
+    font-size: 1.2rem;
+   }
+   section{
+    padding: 2rem 0;
+   }
+   .home-img{
+    object-position: left;
+   }
+   .mives-type{
+font-size: 0.875rem;
+margin-top: 2px;
+   }
+   .tags span,.about-movies p{
+font-size: 0.875rem
+   };
+   p{
+    font-size: 0.875rem;
+   }
+   .play-text h2,.about-movies h2{
+    font-size: 1.3rem;
+   }
+   .play-movies{
+    bottom: 10rem;
+    right: 2rem;
+   }
+}
+@media screen and (max-width:514px) {
+    .home{
+        min-height: 380px;
+    }
+    .heading{
+        padding: 2px 14px;
+    }
+    .heading-title{
+        font-size: 1rem;
+    }
+    .play-text{
+        padding: 20px;
+    }
+    .play-movies{
+        bottom: 4rem;
+    }
+    .video-box{
+        width: 94%;
+    }
+    .cast-heading{
+        font-size: 1.1rem;
+    }
+    .cast-tiitle{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:408px) {
+
+    *{
+        scroll-padding-top: 5rem;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 5px;
+    }
+.search-box{
+    min-width: 100%;
+    width: 100%;
+    border-radius: 4px;
+    order: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.home,.play-container{
+    margin-top: 7rem !important;
+}
+.movie-box{
+    height: 300px;
+}
+.movie-content{
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 1rem;
+}
+}
+/* small devices */
+@media screen and (max-width:370px){
+.home{
+    min-height: 300px;
+}
+.movie-box{
+    height: 285px;
+}
+.user-img,.watch-btn .fas{
+    width: 35px;
+    height: 35px;
+}
+.navbar{
+    justify-content: space-around;
+    padding: 8px 0;
+}
+.nav-links .fas{
+    font-size: 1.4rem;
+}
+.about-movies p{
+    text-align: justify;
+}
+.download-links{
+    grid-template-columns: 1fr;
+}
+}
+
